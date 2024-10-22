@@ -4,21 +4,6 @@
 
 body {
     font-family: Arial, sans-serif; 
-    width: 600px; 
-    margin: 0 auto; 
-    border: 3px solid #931420; 
-    background-color: #fffded; 
-}
-
-html {
-    background-color: white; 
-}
-
-header {
-    border-bottom: 3px solid #931420; 
-    padding-top: 1.5em; 
-    padding-bottom: 2em; 
-    background: linear-gradient(30deg, #6bb73 0%, #f6bb73 30%, white 50%, #6bb73 80%, #f6bb73 100%);
 }
 
 h1, h2 {
@@ -38,7 +23,6 @@ h1, h2 {
     vertical-align: top; 
     margin-left: 10px; 
     text-align: left; 
-    float: right; /* Float header text to the right of the logo */
 }
 
 h2 {
@@ -48,7 +32,6 @@ h2 {
 h2.mission,
 h2.ticket-packages {
     text-indent: 0; 
-    clear: both; /* Ensures this is below the floated elements */
 }
 
 h3 {
@@ -62,14 +45,8 @@ a:hover {
     font-style: italic; 
 }
 
-footer {
-    background-color: var(--global-color-1);
-}
-
 footer p {
-    color: white; /* Set font color for the footer text */
     text-align: center; 
-    padding: 1em; /* Add padding to the footer */
 }
 
 .shadow {
@@ -81,27 +58,8 @@ footer p {
     margin-right: 15px; 
 }
 
-header img {
-    float: left; /* Keep the image floated to the left */
-    margin-right: 15px; 
-}
-
 header::after {
     content: "";
     display: table;
     clear: both;
-}
-
-blockquote {
-    font-style: italic; /* Italicize blockquote */
-}
-
-h1 {
-    border-top: 3px solid #931420; 
-    border-bottom: 3px solid #931420; 
-    padding: 1em 0; /* Add padding to the h1 */
-}
-
-main {
-    padding: 0 30px; /* Add padding to the main element */
 }
